@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Work_Sans } from "next/font/google";
 import "./globals.css";
 
+import { Analytics } from "@vercel/analytics/react";
+
 const work = Work_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -16,7 +18,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={work.className}>{children}</body>
+      <body className={work.className}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
