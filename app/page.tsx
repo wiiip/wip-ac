@@ -22,6 +22,10 @@ const Projects = [
     name: "Router.so",
     href: "https://router.so",
   },
+  {
+    name: "SwyftFin",
+    href: "https://swyftfin.com",
+  },
 ];
 
 export default function Home() {
