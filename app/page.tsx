@@ -1,5 +1,6 @@
-import Image from "next/image";
-import Icon from "@/public/icon.svg";
+// import Image from "next/image";
+// import Icon from "@/public/icon.svg";
+import PixelRearrange from "@/app/wip";
 
 const Projects = [
   {
@@ -31,13 +32,14 @@ const Projects = [
 export default function Home() {
   return (
     <main className="p-6 grid gap-12">
-      <Image
+      {/* <Image
         src={Icon}
         className="invert"
         width={48}
         height={48}
         alt="WIP Icon"
-      />
+      /> */}
+      <PixelRearrange />
 
       <div>
         <h1>Work In Progress / Applied Creative</h1>
