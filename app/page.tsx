@@ -4,14 +4,6 @@ import PixelRearrange from "@/app/wip";
 
 const Projects = [
   {
-    name: "Julius",
-    href: "https://julius.ai",
-  },
-  {
-    name: "Ampry",
-    href: "https://ampry.com",
-  },
-  {
     name: "Outr",
     href: "https://outr.io",
   },
@@ -27,18 +19,27 @@ const Projects = [
     name: "SwyftFin",
     href: "https://swyftfin.com",
   },
+  {
+    name: "Ampry",
+    href: "https://ampry.com",
+  },
+  {
+    name: "ASAP ",
+    href: "https://studiomojave.com",
+  },
+  {
+    name: "Studio Mojave",
+    href: "https://studiomojave.com",
+  },
+  {
+    name: "Zion",
+    href: "https://zion.surf",
+  },
 ];
 
 export default function Home() {
   return (
     <main className="p-6 grid gap-12">
-      {/* <Image
-        src={Icon}
-        className="invert"
-        width={48}
-        height={48}
-        alt="WIP Icon"
-      /> */}
       <PixelRearrange />
 
       <div>
