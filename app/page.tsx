@@ -24,7 +24,7 @@ const Projects = [
     href: "https://ampry.com",
   },
   {
-    name: "ASAP ",
+    name: "ASAP Engineering",
     href: "https://studiomojave.com",
   },
   {
