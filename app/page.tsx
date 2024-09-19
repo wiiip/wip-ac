@@ -32,7 +32,7 @@ const Projects = [
     href: "https://studiomojave.com",
   },
   {
-    name: "Travel Melloe",
+    name: "Travel Mellow",
     href: "https://travelmellow.com",
   },
   {
