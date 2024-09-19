@@ -32,6 +32,10 @@ const Projects = [
     href: "https://studiomojave.com",
   },
   {
+    name: "Travel Melloe",
+    href: "https://travelmellow.com",
+  },
+  {
     name: "Zion",
     href: "https://zion.surf",
   },
