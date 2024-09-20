@@ -4,6 +4,10 @@ import PixelRearrange from "@/app/wip";
 
 const Projects = [
   {
+    name: "WIP Design",
+    href: "https://wipdes.com",
+  },
+  {
     name: "Outr",
     href: "https://outr.io",
   },
