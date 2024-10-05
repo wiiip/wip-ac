@@ -47,11 +47,11 @@ const Projects = [
 
 export default function Home() {
   return (
-    <main className="p-6 grid gap-12">
+    <main className="p-6 grid gap-12 uppercase">
       <PixelRearrange />
 
       <div>
-        <h1>Work In Progress / Applied Creative</h1>
+        <h1 className="font-medium">Work In Progress / Applied Creative</h1>
         <p>
           Software Design and Development by{" "}
           <OutLink href="https://bridger.to">Bridger Tower</OutLink>.
