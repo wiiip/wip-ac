@@ -53,7 +53,7 @@ export default function Home() {
       <div>
         <h1 className="font-medium">Work In Progress / Applied Creative</h1>
         <p>
-          Software Design and Development by{" "}
+          A design company by{" "}
           <OutLink href="https://bridger.to">Bridger Tower</OutLink>.
         </p>
       </div>
