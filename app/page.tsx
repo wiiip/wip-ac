@@ -4,8 +4,8 @@ import PixelRearrange from "@/app/wip";
 
 const Projects = [
   {
-    name: "Vercel (nextjs.org)",
-    href: "https://nextjs.org",
+    name: "Vercel",
+    href: "https://vercel.com",
   },
   {
     name: "Julius",
@@ -77,7 +77,7 @@ export default function Home() {
 
       <div>
         <p>contact me at bridger @ wip.ac</p>
-        <p>© wip 2024</p>
+        <p>© wip 2025</p>
       </div>
     </main>
   );
