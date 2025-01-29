@@ -4,6 +4,14 @@ import PixelRearrange from "@/app/wip";
 
 const Projects = [
   {
+    name: "Vercel (nextjs.org)",
+    href: "https://nextjs.org",
+  },
+  {
+    name: "Julius",
+    href: "https://julius.ai",
+  },
+  {
     name: "WIP Design",
     href: "https://wipdes.com",
   },
