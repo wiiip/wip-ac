@@ -32,6 +32,10 @@ const Projects = [
     href: "https://swyftfin.com",
   },
   {
+    name: "Rem Blair",
+    href: "https://remblair.com",
+  },
+  {
     name: "Ampry",
     href: "https://ampry.com",
   },
