@@ -1,5 +1,3 @@
-// import Image from "next/image";
-// import Icon from "@/public/icon.svg";
 import PixelRearrange from "@/app/wip";
 
 const Projects = [
