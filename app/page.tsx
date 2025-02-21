@@ -10,6 +10,14 @@ const Projects = [
     href: "https://julius.ai",
   },
   {
+    name: "Laravel",
+    href: "https://laravel.com",
+  },
+  {
+    name: "Route",
+    href: "https://route.com",
+  },
+  {
     name: "WIP Design",
     href: "https://wipdes.com",
   },
