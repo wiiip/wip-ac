@@ -87,7 +87,7 @@ export default function Home() {
 
       <div>
         <p>contact me at bt @ wip.ac</p>
-        <p>© wip 2025</p>
+        <p>© work in progress llc 2025</p>
       </div>
     </main>
   );
