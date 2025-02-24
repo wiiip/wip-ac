@@ -22,16 +22,16 @@ const Projects = [
     href: "https://wipdes.com",
   },
   {
+    name: "Router.so",
+    href: "https://router.so",
+  },
+  {
     name: "Outr",
     href: "https://outr.io",
   },
   {
     name: "Wavefinder",
     href: "https://wavefinder.io",
-  },
-  {
-    name: "Router.so",
-    href: "https://router.so",
   },
   {
     name: "SwyftFin",
@@ -68,8 +68,8 @@ export default function Home() {
     <main className="p-6 grid gap-12 uppercase font-light">
       <PixelRearrange />
       <div>
-        <h1 className="font-medium">Work In Progress / Applied Creative</h1>
-        <p>
+        <h1 className="font-normal">Work In Progress / Applied Creative</h1>
+        <h2>
           A design and development company by{" "}
           <a
             href="https://bridger.to"
@@ -92,10 +92,11 @@ export default function Home() {
               ></path>
             </svg>
           </a>
-        </p>
+        </h2>
       </div>
+
       <div className="space-y-2 sm:space-y-0">
-        <h2 className="sr-only">Currently Building</h2>
+        <h3 className="sr-only">PROJECTS / PARTNERS</h3>
         {Projects.map((project) => (
           <OutLink block key={project.name} href={project.href}>
             {project.name}
@@ -103,8 +104,10 @@ export default function Home() {
         ))}
       </div>
       <div>
-        <p>contact me at bt @ wip.ac</p>
-        <p>© work in progress llc 2025</p>
+        <h3 className="sr-only">ABOUT</h3>
+        <h3>Made at the crossroads of Design, Engnineering, and Marketing.</h3>
+        <p className="text-zinc-600">contact me at bt @ wip.ac</p>
+        <p className="text-zinc-600">© work in progress llc 2025</p>
       </div>
     </main>
   );
@@ -122,26 +125,12 @@ const OutLink = ({
   return (
     <a
       href={href}
-      className={`sm:w-fit transition-all hover:text-blue-800 text-blue-600 p-3 sm:p-0 border sm:border-0 ${
+      className={`sm:w-fit group transition-all hover:text-blue-800 text-blue-600 p-3 sm:p-0 border sm:border-0 ${
         block ? "block" : "inline"
       }`}
     >
+      <span className="hidden group-hover:inline">{"> "}</span>
       {children}
-      <svg
-        width="12"
-        height="12"
-        viewBox="0 0 12 12"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        className="inline-flex mb-1"
-      >
-        <path
-          d="M3.64645 11.3536C3.45118 11.1583 3.45118 10.8417 3.64645 10.6465L10.2929 4L6 4C5.72386 4 5.5 3.77614 5.5 3.5C5.5 3.22386 5.72386 3 6 3L11.5 3C11.6326 3 11.7598 3.05268 11.8536 3.14645C11.9473 3.24022 12 3.36739 12 3.5L12 9.00001C12 9.27615 11.7761 9.50001 11.5 9.50001C11.2239 9.50001 11 9.27615 11 9.00001V4.70711L4.35355 11.3536C4.15829 11.5488 3.84171 11.5488 3.64645 11.3536Z"
-          fill="currentColor"
-          fillRule="evenodd"
-          clipRule="evenodd"
-        ></path>
-      </svg>
     </a>
   );
 };
