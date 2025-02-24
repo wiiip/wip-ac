@@ -86,7 +86,7 @@ export default function Home() {
       </div>
 
       <div>
-        <p>contact me at bridger @ wip.ac</p>
+        <p>contact me at bt @ wip.ac</p>
         <p>© wip 2025</p>
       </div>
     </main>
@@ -105,7 +105,7 @@ const OutLink = ({
   return (
     <a
       href={href}
-      className={`hover:underline w-fit decoration-zinc-400 transition-all hover:decoration-zinc-900 text-slate-700 ${
+      className={`w-fit transition-all hover:text-blue-800 text-blue-600 ${
         block ? "block" : "inline"
       }`}
     >
