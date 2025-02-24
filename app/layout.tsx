@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Manrope as Font } from "next/font/google";
+import { Geist_Mono as Font } from "next/font/google";
 import "./globals.css";
 
 import { Analytics } from "@vercel/analytics/react";
@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="bg-zinc-100 text-zinc-950">
+    <html lang="en" className="bg-zinc-100 text-zinc-950 font-light">
       <body className={font.className}>
         {children}
         <Analytics />
