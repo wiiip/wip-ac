@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 
-const PixelRearrange = () => {
+export const PixelRearrange = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   const originalRects = [
@@ -102,7 +102,7 @@ const PixelRearrange = () => {
     <div
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      className="inline-block bg-zinc-100 overflow-hidden"
+      className="inline-block bg-background overflow-hidden"
       style={{
         width: isHovered ? "66px" : "48px",
         height: "48px",
@@ -116,7 +116,7 @@ const PixelRearrange = () => {
         fill="#f4f4f5"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <rect width="66" height="48" fill="240 4.8% 95.9%" />
+        <rect width="66" height="48" fill="#fff" />
         {originalRects.map((_, index) => {
           const position = getPosition(index);
           return (
@@ -135,5 +135,3 @@ const PixelRearrange = () => {
     </div>
   );
 };
-
-export default PixelRearrange;

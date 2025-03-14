@@ -1,18 +1,15 @@
 import "./globals.css";
 
+import { Instrument_Sans, Instrument_Serif } from "next/font/google";
 import type { Metadata } from "next";
-import {
-  Instrument_Sans as Sans,
-  Instrument_Serif as Serif,
-} from "next/font/google";
 
-const instrumentSans = Sans({
+const instrumentSans = Instrument_Sans({
   variable: "--font-instrument-sans",
   subsets: ["latin"],
 });
 
-const instrumentSerif = Serif({
-  variable: "--font-instrument-mono",
+const instrumentSerif = Instrument_Serif({
+  variable: "--font-instrument-serif",
   weight: "400",
   subsets: ["latin"],
 });
