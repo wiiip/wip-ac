@@ -6,6 +6,10 @@ const Projects = [
     href: "https://vercel.com",
   },
   {
+    name: "Browserbase",
+    href: "https://browserbase.com",
+  },
+  {
     name: "Julius",
     href: "https://julius.ai",
   },
