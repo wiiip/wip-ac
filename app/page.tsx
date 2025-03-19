@@ -18,14 +18,6 @@ const Projects = [
     href: "https://laravel.com",
   },
   {
-    name: "Route",
-    href: "https://route.com",
-  },
-  {
-    name: "WIP Design",
-    href: "https://wipdes.com",
-  },
-  {
     name: "Router.so",
     href: "https://router.so",
   },
@@ -42,24 +34,16 @@ const Projects = [
     href: "https://swyftfin.com",
   },
   {
-    name: "Rem Blair",
-    href: "https://remblair.com",
-  },
-  {
     name: "Ampry",
     href: "https://ampry.com",
   },
   {
-    name: "ASAP Engineering",
-    href: "https://studiomojave.com",
+    name: "Route",
+    href: "https://route.com",
   },
   {
     name: "Studio Mojave",
     href: "https://studiomojave.com",
-  },
-  {
-    name: "Travel Mellow",
-    href: "https://travelmellow.com",
   },
   {
     name: "Zion",
@@ -107,6 +91,7 @@ export default function Home() {
           </OutLink>
         ))}
       </div>
+
       <div>
         <h3 className="sr-only">ABOUT</h3>
         <h3>Made at the crossroads of Design, Engnineering, and Marketing.</h3>
@@ -129,7 +114,7 @@ const OutLink = ({
   return (
     <a
       href={href}
-      className={`sm:w-fit group transition-all hover:text-blue-800 text-blue-600 p-3 sm:p-0 border sm:border-0 ${
+      className={`sm:w-fit group transition-all hover:text-blue-800 text-blue-600 p-2 sm:p-0 border sm:border-0 ${
         block ? "block" : "inline"
       }`}
     >
