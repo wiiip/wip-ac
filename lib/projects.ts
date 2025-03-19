@@ -1,7 +1,11 @@
-export const Projects = [
+export const projects = [
   {
     name: "Vercel",
     href: "https://vercel.com",
+  },
+  {
+    name: "Browserbase",
+    href: "https://browserbase.com",
   },
   {
     name: "Julius",
@@ -16,18 +20,6 @@ export const Projects = [
     href: "https://route.com",
   },
   {
-    name: "WIP Design",
-    href: "https://wipdes.com",
-  },
-  {
-    name: "Router.so",
-    href: "https://router.so",
-  },
-  {
-    name: "Outr",
-    href: "https://outr.io",
-  },
-  {
     name: "Wavefinder",
     href: "https://wavefinder.io",
   },
@@ -36,27 +28,11 @@ export const Projects = [
     href: "https://swyftfin.com",
   },
   {
-    name: "Rem Blair",
-    href: "https://remblair.com",
+    name: "Router.so",
+    href: "https://router.so",
   },
   {
     name: "Ampry",
     href: "https://ampry.com",
-  },
-  {
-    name: "ASAP Engineering",
-    href: "https://studiomojave.com",
-  },
-  {
-    name: "Studio Mojave",
-    href: "https://studiomojave.com",
-  },
-  {
-    name: "Travel Mellow",
-    href: "https://travelmellow.com",
-  },
-  {
-    name: "Zion",
-    href: "https://zion.surf",
   },
 ];
