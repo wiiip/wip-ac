@@ -18,6 +18,10 @@ const Projects = [
     href: "https://laravel.com",
   },
   {
+    name: "9d8",
+    href: "https://9d8.dev",
+  },
+  {
     name: "Router.so",
     href: "https://router.so",
   },
