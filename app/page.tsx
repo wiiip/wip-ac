@@ -22,6 +22,10 @@ const Projects = [
     href: "https://9d8.dev",
   },
   {
+    name: "Wrk.so",
+    href: "https://wrk.so",
+  },
+  {
     name: "Router.so",
     href: "https://router.so",
   },
@@ -44,6 +48,10 @@ const Projects = [
   {
     name: "Route",
     href: "https://route.com",
+  },
+  {
+    name: "Rem Blair",
+    href: "https://remblair.com",
   },
   {
     name: "Studio Mojave",
