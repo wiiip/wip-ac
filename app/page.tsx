@@ -107,6 +107,7 @@ export default function Home() {
       <div>
         <h3 className="sr-only">ABOUT</h3>
         <h3>Made at the crossroads of Design, Engnineering, and Marketing.</h3>
+        <br />
         <p className="text-zinc-600">contact me at bt @ wip.ac</p>
         <p className="text-zinc-600">© work in progress llc 2025</p>
       </div>
