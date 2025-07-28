@@ -70,7 +70,7 @@ export default function Home() {
       <div>
         <h1 className="font-normal">Work In Progress / Applied Creative</h1>
         <h2>
-          A design and development company by{" "}
+          WIP is a design and development studio by{" "}
           <a
             href="https://bridger.to"
             className="transition-all hover:text-blue-800 text-blue-600"
