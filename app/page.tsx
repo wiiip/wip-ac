@@ -7,7 +7,7 @@ import { Shader } from "./shader";
 
 export default function Home() {
   return (
-    <main className="relative h-screen w-screen overflow-hidden">
+    <main className="relative h-screen w-screen overflow-hidden bg-[#222]">
       <section className="z-50 fixed top-6 left-6 flex gap-6">
         <Image src={Icon} height={48} alt="WIP ICON"></Image>
         <Image src={Logo} height={36} alt="WIP LOGO"></Image>
