@@ -7,6 +7,7 @@ import { Analytics } from "@vercel/analytics/react";
 const font = Font({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://wip.ac"),
   title: "Work In Progress / Applied Creative",
   description: "Software Design and Development by Bridger Tower.",
 };
