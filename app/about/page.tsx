@@ -65,7 +65,7 @@ const Projects = [
 
 export default function Home() {
   return (
-    <main className="p-6 grid gap-12 uppercase font-light ">
+    <main className="p-6 grid gap-6 uppercase font-light ">
       <PixelRearrange />
       <div>
         <h1 className="font-normal">Work In Progress / Applied Creative</h1>
@@ -96,7 +96,7 @@ export default function Home() {
       </div>
 
       <div className="space-y-2 sm:space-y-0">
-        <h3 className="sr-only">PROJECTS / PARTNERS</h3>
+        <h3 className="mb-3"> &rarr; PROJECTS / PARTNERS / VENTURES</h3>
         {Projects.map((project) => (
           <OutLink block key={project.name} href={project.href}>
             {project.name}
@@ -105,7 +105,7 @@ export default function Home() {
       </div>
 
       <div>
-        <h3 className="sr-only">ABOUT</h3>
+        <h3 className="mb-3"> &rarr; ABOUT</h3>
         <h3>Made at the crossroads of Design, Engnineering, and Marketing.</h3>
         <br />
         <p className="text-zinc-600">contact me at bt @ wip.ac</p>
