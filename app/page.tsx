@@ -16,7 +16,7 @@ export default function Home() {
         <Link href="/about">&rarr; about</Link>
       </section>
       <Shader
-        className="fixed w-full h-full top-0 right-0 -z-10"
+        className="fixed w-full h-full top-0 right-0 z-10"
         colorBack="#222"
         colorFront="#f5f5f5"
         speed={0.2}
