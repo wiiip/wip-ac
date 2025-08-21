@@ -65,12 +65,12 @@ const Projects = [
 
 export default function Home() {
   return (
-    <main className="p-6 grid gap-12 uppercase font-light">
+    <main className="p-6 grid gap-12 uppercase font-light ">
       <PixelRearrange />
       <div>
         <h1 className="font-normal">Work In Progress / Applied Creative</h1>
         <h2>
-          WIP is a design and development studio by{" "}
+          WIP is a design and development company by{" "}
           <a
             href="https://bridger.to"
             className="transition-all hover:text-blue-800 text-blue-600"
