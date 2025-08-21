@@ -63,7 +63,7 @@ const Projects = [
   },
 ];
 
-export default function Home() {
+export default function About() {
   return (
     <main className="p-6 grid gap-6 uppercase font-light ">
       <PixelRearrange />
