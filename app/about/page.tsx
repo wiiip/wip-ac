@@ -1,4 +1,4 @@
-import PixelRearrange from "@/app/wip";
+import PixelRearrange from "./wip";
 
 const Projects = [
   {
